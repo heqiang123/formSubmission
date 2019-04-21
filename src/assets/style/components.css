@@ -1,0 +1,298 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+:focus {
+  outline: 1;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select,
+button {
+  vertical-align: middle;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a,
+a:hover,
+a:after {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+ul li {
+  list-style-type: none;
+  border: none;
+}
+.cle9 {
+  color: #e9e9ea;
+}
+.red {
+  color: #e52a33;
+}
+.bgf {
+  background-color: #ffffff;
+}
+#app {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+.van-button--primary {
+  width: 135px;
+  height: 40px;
+  background: linear-gradient(308deg, #92afdd 0%, #456392 100%);
+  box-shadow: 0px 0px 4px 0px rgba(82, 114, 167, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+}
+.van-button--info {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: linear-gradient(308deg, #d6d6d6 0%, #757575 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-button--danger {
+  width: 135px;
+  height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-button--large {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 15px;
+  color: #FFF;
+  margin: 35px auto 25px;
+  display: flex;
+  justify-content: center;
+}
+.van-button--large1 {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 15px;
+  color: #FFF;
+  margin: 35px auto 25px;
+  display: flex;
+  justify-content: center;
+}
+.van-button--warning {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-dialog {
+  font-size: 15px;
+}
+.van-dialog .van-dialog__header {
+  color: #F4403D;
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.van-dialog .van-dialog__message--has-title {
+  color: #434D5D;
+}
+.van-dialog .van-dialog__message--has-title span {
+  color: #F4403D;
+}
+.van-dialog .van-dialog__message {
+  text-align: left;
+}
+.van-dialog .van-hairline--top .van-button--large:nth-child(1) {
+  box-shadow: 0px 0px 4px 0px rgba(82, 114, 167, 0.5);
+  background: linear-gradient(308deg, #92afdd 0%, #456392 100%);
+  margin-right: 10px;
+}
+.van-dialog .van-button--large {
+  margin: 14px auto 25px;
+}
+.van-dialog .van-dialog__footer--buttons {
+  padding: 0 25px;
+}
+textarea::-webkit-input-placeholder {
+  color: #c7cad0;
+}
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c7cad0;
+}
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c7cad0;
+}
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c7cad0;
+}
